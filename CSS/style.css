@@ -3,5 +3,29 @@
 }
 
 @media only screen and (min-width: 1024px) {
-
+    html{
+        margin: 0;
+    }
+#hotel{
+    background-image: url(../img/ozora-hotel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+.nav-bar{
+    background-color: #1e345b;
+    position: relative;
+    height: 63px;
+    width: 1930px;
+    top: -10px;
+    right: 5px;
+}
+.nav-bar a{
+    color: antiquewhite;
+    position: relative;
+    text-decoration: none;
+    padding: 20px;
+    left: 550px;
+    top: 20px;
+}
 }
