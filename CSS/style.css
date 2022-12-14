@@ -6,11 +6,11 @@
     html{
         margin: 0;
     }
-#hotel{
-    background-image: url(../img/ozora-hotel.jpg);
+#top{
+    background-image: url(../img/bg-top.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: fit-content;
+    height: 1550px;
 }
 .nav-bar{
     background-color: #1e345b;
