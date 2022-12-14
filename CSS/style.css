@@ -28,4 +28,9 @@
     left: 550px;
     top: 20px;
 }
+.title-top{
+    position: absolute;
+    left: 430px;
+    top: 650px;
+}
 }
