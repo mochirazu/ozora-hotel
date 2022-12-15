@@ -7,18 +7,60 @@ body{
     margin: 0;
     padding: 0;
 }
-#top{
-    background-image: url(../img/bg-top.jpg);
+body{
+    background-image: url(../img/ozora-hotel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8500px;
+    overflow-x: hidden;
 }
 .nav-bar{
     box-sizing: border-box;
     width: 1920px;
     height: 65px;
-    background-color: black;
+    background-color: #1e345b;
+    padding-left: 550px;
+    padding-top: 20px;
 }
 .nav-bar a{
-
     color: white;
-    padding-left: 20px;
+    text-decoration: none;
+    padding-left: 40px;
+}
+.title-top{
+    position: relative;
+    left: 450px;
+    top: 600px;
+}
+.contain{
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: orangered;
+    border-radius: 15px;
+    width: 1075px;
+    height: 336px;
+    padding-bottom: 20px;
+}
+.contain{
+    position: relative ;
+    left: 425px;
+    top: 630px;
+}
+.contain p{
+    font-size: 52px;
+    text-align: center;
+}
+.acc img{
+    width: 600px;
+    height: auto;
+}
+.acc img{
+    position: absolute;
+    left: 115px;
+    top: 1000px;
+}
+.title-bg2{
+    position: relative;
 }
 }
