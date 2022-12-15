@@ -3,51 +3,22 @@
 }
 
 @media only screen and (min-width: 1024px) {
-#hotel{
-    background-image: url(../img/ozora-hotel.jpg);
-    background-size: cover;
-    overflow-x: hidden ;
-    height: 8950px;
+body{
+    margin: 0;
+    padding: 0;
+}
+#top{
+    background-image: url(../img/bg-top.jpg);
 }
 .nav-bar{
-    background-color: #1e345b;
-    box-sizing: content-box;
-    position: relative;
+    box-sizing: border-box;
     width: 1920px;
-    height: 50px;
-    right: 8px;
-    bottom: 10px;
+    height: 65px;
+    background-color: black;
 }
 .nav-bar a{
+
     color: white;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    left: 550px;
-}
-.title-top{
-    position: absolute;
-    top: 650px;
-    left: 450px;
-}
-.top-lead{
-    position: relative;
-    background-color: white;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: orangered;
-    width: 1075px;
-    height: 336px;
-}
-.top-lead{
-    left: 425px;
-    top: 1100px;
-}
-.top-lead p{
-    text-align: center;
-    font-size: 52px;
-    margin-top: 30px;
+    padding-left: 20px;
 }
 }
