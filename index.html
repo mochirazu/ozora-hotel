@@ -38,11 +38,65 @@
             <div class="title-bg2">
                 <img src="img/title2.png" alt="">
             </div>
-            <div id="container">
-                <div class="content-slide">
-                    
-                </div>
+            <!--image slider s-->
+    <div class="slider">
+        <div class="slides">
+            <!--radio button s-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <!--radio button e-->
+            <!--slides img s-->
+            <div class="slide first">
+                <img src="img/01_ファミリー.jpg" alt="">
             </div>
+            <div class="slide">
+                <img src="img/02_ファミリー.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/03_ファミリー.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/04_ファミリー.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/05_ファミリー.jpg" alt="">
+            </div>
+            <!--slides img e-->
+            <!--automatic nav s-->
+            <div class="navigation-auto">
+                <div class="auto=btn1"></div>
+                <div class="auto=btn2"></div>
+                <div class="auto=btn3"></div>
+                <div class="auto=btn4"></div>
+                <div class="auto=btn5"></div>
+            </div>
+            <!--automatic nav e-->
         </div>
+        <!--manual nav s-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div>
+        <!--manual nav e-->
+    </div>
+    <!--image slider e-->
+        </div>
+
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 5){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
     </body>
 </html>
