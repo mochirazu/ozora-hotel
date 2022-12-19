@@ -3,6 +3,9 @@
 }
 
 @media only screen and (min-width: 1024px) {
+    *{
+box-sizing: border-box;
+    }
 html{
     margin: 0;
     padding: 0;
@@ -10,6 +13,10 @@ html{
     max-width: 1920px;
     max-height: 9000px;
     background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 #top{
     background-image: url(../img/bg-top.jpg);
@@ -70,9 +77,5 @@ top: 570px;
     position: relative;
     top: 50px;
     left: 500px;
-}
-#slider .images img{
-    width: 1000px;
-    height: auto;
 }
 }
