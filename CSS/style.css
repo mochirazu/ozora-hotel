@@ -251,7 +251,16 @@ margin-left: -60%;
 }
 .title-mama img{
     padding-top: 100px;
-    padding-left: 485px;
+    padding-left: 490px;
 }
-
+.box{
+    width: 935px;
+    height: 760px;
+    margin-left: 565px;
+    margin-top: 20px;
+}
+.box img{
+    width: 400px;
+    height: auto;
+}
 }
