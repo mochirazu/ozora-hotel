@@ -129,7 +129,7 @@ justify-content: center;
 
 }
 .manual-btn{
-    border: 2px solid #ffe7d2;
+    border: 2px solid #f3811d;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -199,6 +199,12 @@ margin-left: -60%;
     left: 375px;
     font-size: 30px;
     font-weight: bold;
+}
+.plan a:hover{
+    font-size: 35px;
+    color: rgb(148, 16, 16);
+    font-weight: bolder;
+    transition: 1.5s;
 }
 .plan1{
     position: relative;
