@@ -160,43 +160,45 @@
                 <img src="img/camp-title.png" alt="">
             </div>
             <!--swiper start-->
-            <div class="swiper mySwiper2">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/01_キャンプ.jpg" alt="">
+            <div class="contain-sw">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/01_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/02_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/03_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/04_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/05_キャンプ.jpg" alt="">
+                        </div>
                     </div>
-                    <div class="swiper-slide">
-                        <img src="img/02_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/03_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/04_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/05_キャンプ.jpg" alt="">
-                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
-            <div thumbsSlider="" class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/01_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/02_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/03_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/04_キャンプ.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/05_キャンプ.jpg" alt="">
+                <div thumbsSlider="" class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/01_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/02_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/03_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/04_キャンプ.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/05_キャンプ.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -221,12 +223,12 @@
         <script>
             var swiper = new Swiper(".mySwiper", {
               spaceBetween: 10,
-              slidesPerView: 4,
+              slidesPerView: 3,
               freeMode: true,
               watchSlidesProgress: true,
             });
             var swiper2 = new Swiper(".mySwiper2", {
-              spaceBetween: 10,
+              spaceBetween: 5,
               navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
