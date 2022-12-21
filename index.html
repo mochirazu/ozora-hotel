@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ozora-hotel</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="/CSS/style.css">
     </head>
     <body>
@@ -12,7 +13,7 @@
             <div class="nav-bar">
                 <a href="#bg2">充実のホテル滞在</a>
                 <a href="#mama">ママ・パパも安心</a>
-                <a href="#">ホテルでキャンプ体験</a>
+                <a href="#camp">ホテルでキャンプ体験</a>
                 <a href="#">最高のブフェー</a>
             </div>
             <div class="title-top">
@@ -154,6 +155,53 @@
                 </div>
             </div>
         </div>
+        <div id="camp">
+            <div class="title-camp">
+                <img src="img/camp-title.png" alt="">
+            </div>
+            <!--swiper start-->
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/01_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/02_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/03_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/04_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/05_キャンプ.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/01_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/02_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/03_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/04_キャンプ.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/05_キャンプ.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--swiper ends-->
+        </div>
 
             <!--javascript-->
 
@@ -167,5 +215,26 @@
                 }
             }, 5000);
         </script>
+
+        <!--swiper js-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 10,
+              slidesPerView: 4,
+              freeMode: true,
+              watchSlidesProgress: true,
+            });
+            var swiper2 = new Swiper(".mySwiper2", {
+              spaceBetween: 10,
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              thumbs: {
+                swiper: swiper,
+              },
+            });
+          </script>
     </body>
 </html>

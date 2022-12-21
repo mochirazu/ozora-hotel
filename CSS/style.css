@@ -26,11 +26,13 @@ body{
     width: 1920px;
 }
 .nav-bar{
+    position: fixed;
     width: 100%;
     height: 50px;
     background-color: #1e345b;
     padding-left: 600px;
-    padding-top: 20px;
+    padding-top: 15px;
+    z-index: 100000;
 }
 .nav-bar a{
     color: white;
@@ -270,5 +272,41 @@ margin-left: -60%;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+}
+.plan-c{
+    position: relative;
+    top: 50px;
+}
+.plan-c p{
+    position: absolute;
+    color: black;
+    z-index: 200;
+    bottom: 30px;
+    left: 50px;
+}
+.plan-c a{
+    position: absolute;
+    color: black;
+    z-index: 200;
+    top: 70px;
+    left: 780px;
+}
+
+#camp{
+    background-image: url(../img/bg2_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1568px;
+}
+.title-camp img{
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+/*swiper*/
+
+.myswiper{
+    
 }
 }
