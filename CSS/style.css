@@ -55,11 +55,12 @@ top: 570px;
 .top-lead{
     position: relative;
     left: 400px;
-    top: 650px;
+    top: 675px;
 }
 .top-lead p{
     font-size: 52px;
     text-align: center;
+    margin-top: 30px;
 }
 .acc img{
     position: absolute;
@@ -196,7 +197,7 @@ margin-left: -60%;
 
 .plan{
     position: relative;
-    left: 375px;
+    left: 400px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -254,13 +255,20 @@ margin-left: -60%;
     padding-left: 490px;
 }
 .box{
-    width: 935px;
-    height: 760px;
+    width: 920px;
+    height: 730px;
     margin-left: 565px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: -30px;
 }
 .box img{
     width: 400px;
     height: auto;
+}
+.c-text p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 }
