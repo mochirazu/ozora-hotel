@@ -42,8 +42,9 @@ body{
 }
 .title-top{
     position: relative;
-left: 425px;
-top: 570px;
+    text-align: center;
+    padding-top: 660px;
+    margin-bottom: 0;
 }
 .top-lead{
     border: 5px;
@@ -56,8 +57,9 @@ top: 570px;
 }
 .top-lead{
     position: relative;
-    left: 400px;
-    top: 675px;
+    text-align: center;
+    margin-left: 425px;
+    margin-top: 60px;
 }
 .top-lead p{
     font-size: 52px;
@@ -80,8 +82,9 @@ top: 570px;
 }
 .title-bg2{
     position: relative;
-    top: 50px;
-    left: 500px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0;
     
 }
 /*slider*/
@@ -93,7 +96,8 @@ top: 570px;
 }
 .slider{
     position: relative;
-    margin-left: 525px;
+    text-align: center;
+    margin-left: 565px;
     margin-top: 50px;
 }
 .slides{
@@ -199,51 +203,52 @@ margin-left: -60%;
 
 .plan{
     position: relative;
-    left: 400px;
+    text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
 .plan a:hover{
-    font-size: 35px;
+    scale: 125%;
     color: rgb(148, 16, 16);
     font-weight: bolder;
+    margin-right: 10px;
     transition: 1.5s;
 }
 .plan1{
     position: relative;
-    top: 50px;
+    margin-bottom: 20px;
 }
 .plan1 p{
     position: absolute;
     color: black;
     z-index: 200;
     bottom: 30px;
-    left: 50px;
+    left: 625px;
 }
 .plan1 a{
     position: absolute;
-    color: black;
+    color: yellow;
     z-index: 200;
-    top: 70px;
-    left: 780px;
+    top: 150px;
+    left: 825px;
 }
 .plan2{
     position: relative;
-    top: 50px;
+    margin-bottom: 20px;
 }
 .plan2 p{
     position: absolute;
     color: black;
     z-index: 200;
     bottom: 30px;
-    left: 50px;
+    left: 625px;
 }
 .plan2 a{
     position: absolute;
-    color: black;
+    color: yellow;
     z-index: 200;
-    top: 70px;
-    left: 780px;
+    top: 150px;
+    left: 825px;
 }
 #mama{
     background-image: url(../img/mama_02.jpg);
@@ -253,8 +258,10 @@ margin-left: -60%;
     height: 1568px;
 }
 .title-mama img{
-    padding-top: 100px;
-    padding-left: 490px;
+    position: relative;
+    text-align: center;
+    margin-left: 485px;
+    padding-top: 50px;
 }
 .box{
     width: 920px;
@@ -266,6 +273,12 @@ margin-left: -60%;
 .box img{
     width: 400px;
     height: auto;
+}
+.box img:hover{
+    border: red 5px solid;
+    cursor: pointer;
+    scale: 125%;
+    transition: 2s;
 }
 .c-text p{
     color: black;
@@ -282,14 +295,14 @@ margin-left: -60%;
     color: black;
     z-index: 200;
     bottom: 30px;
-    left: 50px;
+    left: 625px;
 }
 .plan-c a{
     position: absolute;
     color: black;
     z-index: 200;
-    top: 70px;
-    left: 780px;
+    top: 150px;
+    left: 825px;
 }
 
 #camp{
