@@ -374,4 +374,60 @@ margin-left: -60%;
 .swiper-button-prev, .swiper-button-next{
     color: orangered;
 }
+
+.text-camp{
+    color: #e09058;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+#camp .plan{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.plan a:hover{
+    scale: 125%;
+    color: rgb(148, 16, 16);
+    font-weight: bolder;
+    margin-right: 10px;
+    transition: 1.5s;
+}
+.plan-camp1{
+    position: relative;
+    margin-bottom: 20px;
+}
+.plan-camp1 p{
+    position: absolute;
+    color: black;
+    z-index: 200;
+    bottom: 30px;
+    left: 575px;
+}
+.plan-camp1 a{
+    position: absolute;
+    color: yellow;
+    z-index: 200;
+    top: 150px;
+    left: 825px;
+}
+.plan-camp2{
+    position: relative;
+    margin-bottom: 20px;
+}
+.plan-camp2 p{
+    position: absolute;
+    color: black;
+    z-index: 200;
+    bottom: 30px;
+    left: 575px;
+}
+.plan-camp2 a{
+    position: absolute;
+    color: yellow;
+    z-index: 200;
+    top: 150px;
+    left: 825px;
+}
 }
