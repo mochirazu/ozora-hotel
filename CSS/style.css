@@ -11,7 +11,6 @@ html{
     padding: 0;
     overflow-x: hidden;
     max-width: 1920px;
-    height: 9500px;
     background-color: black;
 }
 body{
@@ -345,6 +344,7 @@ margin-left: -60%;
     width: 70%;
     height: 90%;
     object-fit: cover;
+    border: 5px solid #c3322f;
   }
 .mySwiper2 {
     height: 100%;
@@ -466,7 +466,7 @@ margin-left: -60%;
     align-items: center;
   }
   .swiper-pagination{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 .swiper{
     margin-top: 30px;
@@ -507,5 +507,21 @@ margin-left: -60%;
     background-size: contain;
     width: 1920px;
     height: 1026px;
+}
+
+.b1 img{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+.b1 img:hover{
+    scale: 105%;
+    rotate: 2.5deg;
+    transition: 2s;
+}
+.btext{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 }
