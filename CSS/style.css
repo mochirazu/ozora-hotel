@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+/*font-family: 'Noto Serif JP', serif;*/
+/*font-family: 'Noto Sans JP', sans-serif;*/
+
 @media only screen and (min-width: 320px) {
 
 }
@@ -12,6 +17,10 @@ html{
     overflow-x: hidden;
     max-width: 1920px;
     background-color: black;
+}
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif JP', serif;
 }
 body{
     margin: 0;
@@ -64,9 +73,11 @@ body{
     margin-top: 60px;
 }
 .top-lead p{
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 52px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .acc img{
     position: absolute;
@@ -436,10 +447,10 @@ margin-left: -60%;
 
 #buffet{
     background-image: url(../img/bg-buffet_02.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 1920px;
-    height: 1854px;
+    height: 1754px;
 }
 .title-buffet{
     position: relative;
@@ -508,20 +519,30 @@ margin-left: -60%;
     width: 1920px;
     height: 1026px;
 }
-
-.b1 img{
-    position: relative;
-    margin-top: 50px;
-    margin-left: 450px;
-}
-.b1 img:hover{
+#last img:hover{
     scale: 105%;
     rotate: 2.5deg;
     transition: 2s;
+}
+
+.b1 img{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 450px;
 }
 .btext{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    padding-top: 0;
+}
+.b2{
+    display: flex;
+    justify-content: center;
+}
+.b4{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
 }
 }
