@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ozora-hotel</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="/CSS/style.css">
     </head>
     <body>
@@ -237,7 +238,42 @@
         </div>
         <div id="buffet">
             <div class="title-buffet">
-                <img src="" alt="">
+                <img src="img/buffet-title.png" alt="">
+            </div>
+            <div class="swiper mySwiperpag">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/01_ブフェー.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/02_ブフェー.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/03_ブフェー.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/04_ブフェー.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/05_ブフェー.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="buf-text">
+                <p>パフォーマンスキッチンでシェフ
+                    <br>
+                    が目の前で仕上げる特製料理が盛りだくさん。
+                    <br>
+                    ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。
+                    <br>
+                    <br>
+                    また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、
+                    <br>
+                    ご家族みなさまでお楽しみいただけます。</p>
+            </div>
+            <div class="review">
+                <img src="img/plank-text.png" alt="">
             </div>
         </div>
 
@@ -272,6 +308,19 @@
               thumbs: {
                 swiper: swiper,
               },
+            });
+          </script>
+
+          <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper(".mySwiperpag", {
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+                },
             });
           </script>
     </body>
