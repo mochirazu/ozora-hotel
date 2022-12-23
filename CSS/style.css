@@ -82,9 +82,9 @@
         #bg2{
             background-image:url(../img/bg2_02.jpg);
             background-repeat: no-repeat;
-            background-size: contain;
-            height: 320px;
+            background-size: cover;
             width: 320px;
+            height: 497px;
         }
         .title-bg2 img{
             width: 200px;
@@ -98,36 +98,36 @@
             
         }
         /*slider*/
-        .slider{
-            width: 250px;
-            height: 100px;
+        .slider-sp{
+            width: 308px;
+            height: 152px;
             border-radius: 5px;
             overflow: hidden;
         }
-        .slider{
+        .slider-sp{
             position: relative;
             text-align: center;
             margin-left: 5px;
             margin-top: 5px;
         }
-        .slides{
-            width: 100%;
+        .slides-sp{
+            width: 300px;
             height: 100px;
             display: flex;
         }
-        .slides input{
+        .slides-sp input{
             display: none;
         }
-        .slide{
-            width: 100%;
+        .slide-sp{
+            width: 308px;
             transition: 2s; 
         }
-        .slide img{
-            width: 250px;
-            height: auto;
+        .slide-sp img{
+            width: 308px;
+            height: 182px;
             border-radius: 5px;
         }
-        .slide p{
+        .slide-sp p{
             padding-top: 50px;
             color: #e09058;
             font-weight: bold;
@@ -139,15 +139,15 @@
         
         .navigation-manual{
         position: absolute;
-        width: 25px;
-        margin-top: -40px;
+        width: 308px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         
         }
         .manual-btn{
             border: 2px solid #f3811d;
-            padding: 5px;
+            padding: 4px;
             border-radius: 10px;
             cursor: pointer;
             transition: 1s;
@@ -159,20 +159,20 @@
             border: 2px solid #f3811d;
             background: #f3811d;
         }
-        #radio1:checked ~ .first{
+        #sp1:checked ~ .sp{
         margin-left: 0;
         }
-        #radio2:checked ~ .first{
-        margin-left: -20%;
+        #sp2:checked ~ .sp{
+        margin-left: -308px;
         }
-        #radio3:checked ~ .first{
-        margin-left: -40%;
+        #sp3:checked ~ .sp{
+        margin-left: -616px;
         }
-        #radio4:checked ~ .first{
-        margin-left: -60%;
+        #sp4:checked ~ .sp{
+        margin-left: -924px;
         }
-        #radio5:checked ~ .first{
-            margin-left: -80%;
+        #sp5:checked ~ .sp{
+            margin-left: -1232px;
         }
         
         /*automatic nav*/
@@ -212,13 +212,13 @@
         /*plan*/
         
         .plan img{
-            width: 100px;
+            width: 300px;
             height: auto;
         }
         .plan{
             position: relative;
             text-align: center;
-            font-size: 30px;
+            font-size: 10px;
             font-weight: bold;
         }
         .plan a:hover{
@@ -236,8 +236,8 @@
             position: absolute;
             color: #290a09;
             z-index: 200;
-            bottom: 30px;
-            left: 625px;
+            bottom: 0px;
+            left: 0px;
         }
         .plan1 a{
             position: absolute;
@@ -254,8 +254,8 @@
             position: absolute;
             color: #290a09;
             z-index: 200;
-            bottom: 30px;
-            left: 625px;
+            bottom: 0px;
+            left: 0px;
         }
         .plan2 a{
             position: absolute;
@@ -595,6 +595,7 @@ body{
     z-index: 100000;
 }
 .nav-bar a{
+    display: block;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
