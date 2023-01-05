@@ -100,7 +100,7 @@
         /*slider*/
         .slider-sp{
             width: 308px;
-            height: 152px;
+            height: 260px;
             border-radius: 5px;
             overflow: hidden;
         }
@@ -128,10 +128,10 @@
             border-radius: 5px;
         }
         .slide-sp p{
-            padding-top: 50px;
+            padding-top: 5px;
             color: #e09058;
             font-weight: bold;
-            font-size: 25px;
+            font-size: 10px;
             text-align: center;
         }
         
@@ -140,7 +140,7 @@
         .navigation-manual{
         position: absolute;
         width: 308px;
-        margin-top: 30px;
+        margin-top: 55px;
         display: flex;
         justify-content: center;
         
@@ -212,7 +212,7 @@
         /*plan*/
         
         .plan img{
-            width: 300px;
+            width: 320px;
             height: auto;
         }
         .plan{
@@ -220,6 +220,9 @@
             text-align: center;
             font-size: 10px;
             font-weight: bold;
+        }
+        .plan a{
+            font-size: 10px;
         }
         .plan a:hover{
             scale: 125%;
@@ -236,15 +239,15 @@
             position: absolute;
             color: #290a09;
             z-index: 200;
-            bottom: 0px;
-            left: 0px;
+            bottom: 5px;
+            left: 40px;
         }
         .plan1 a{
             position: absolute;
             color: yellow;
             z-index: 200;
-            top: 150px;
-            left: 825px;
+            top: 45px;
+            left: 115px;
         }
         .plan2{
             position: relative;
@@ -254,28 +257,32 @@
             position: absolute;
             color: #290a09;
             z-index: 200;
-            bottom: 0px;
-            left: 0px;
+            bottom: 5px;
+            left: 40px;
         }
         .plan2 a{
             position: absolute;
             color: yellow;
             z-index: 200;
-            top: 150px;
-            left: 825px;
+            top: 45px;
+            left: 115px;
         }
         #mama{
             background-image: url(../img/mama_02.jpg);
             background-size: contain;
-            background-repeat: no-repeat;
-            width: 1920px;
-            height: 1568px;
+            background-repeat: repeat-y;
+            width: 320px;
+            height: 1142px;
+        }
+        .title-mama img{
+            width: 200px;
+            height: auto;
         }
         .title-mama img{
             position: relative;
             text-align: center;
-            margin-left: 485px;
-            padding-top: 50px;
+            margin-left: 60px;
+            padding-top: 15px;
         }
         .box{
             width: 920px;
@@ -292,6 +299,18 @@
             cursor: pointer;
             scale: 125%;
             transition: 2s;
+        }
+        .c1{
+            border-radius:0;
+        }
+        .c2{
+            border-radius:0;
+        }
+        .c3{
+            border-radius:0;
+        }
+        .c4{
+            border-radius:0;
         }
         .c-text p{
             color: #290a09;
@@ -410,7 +429,7 @@
             transition: 1.5s;
         }
         .plan a{
-            font-size: 35px;
+            font-size: 10px;
         }
         .plan-camp1{
             position: relative;
@@ -787,6 +806,9 @@ margin-left: -60%;
     font-size: 30px;
     font-weight: bold;
 }
+.plan a{
+    font-size: 30px;
+}
 .plan a:hover{
     scale: 125%;
     color: rgb(148, 16, 16);
@@ -838,6 +860,10 @@ margin-left: -60%;
     height: 1568px;
 }
 .title-mama img{
+    width: 937px;
+    height: 234px;
+}
+.title-mama img{
     position: relative;
     text-align: center;
     margin-left: 485px;
@@ -846,18 +872,31 @@ margin-left: -60%;
 .box{
     width: 920px;
     height: 730px;
-    margin-left: 565px;
+    margin-left: 535px;
     margin-top: 40px;
     margin-bottom: -30px;
 }
 .box img{
     width: 400px;
     height: auto;
+    margin: 10px;
 }
 .box img:hover{
     cursor: pointer;
     scale: 125%;
     transition: 2s;
+}
+.c1{
+    border-radius:30px 0 0 0;
+}
+.c2{
+    border-radius:0 30px 0 0;
+}
+.c3{
+    border-radius:0 0 0 30px;
+}
+.c4{
+    border-radius:0 0 30px 0;
 }
 .c-text p{
     color: #290a09;
@@ -976,7 +1015,7 @@ margin-left: -60%;
     transition: 1.5s;
 }
 .plan a{
-    font-size: 35px;
+    font-size: 30px;
 }
 .plan-camp1{
     position: relative;
