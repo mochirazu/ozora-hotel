@@ -272,11 +272,12 @@
             background-size: contain;
             background-repeat: repeat-y;
             width: 320px;
-            height: 1142px;
+            height: 1140px;
         }
         .title-mama img{
             width: 200px;
             height: auto;
+            margin: 10px;
         }
         .title-mama img{
             position: relative;
@@ -285,14 +286,14 @@
             padding-top: 15px;
         }
         .box{
-            width: 920px;
-            height: 730px;
-            margin-left: 565px;
-            margin-top: 40px;
+            width: 320px;
+            height: 780px;
+            margin-left: 50px;
+            margin-top: 10px;
             margin-bottom: -30px;
         }
         .box img{
-            width: 400px;
+            width: 220px;
             height: auto;
         }
         .box img:hover{
@@ -300,21 +301,24 @@
             scale: 125%;
             transition: 2s;
         }
+        .box img{
+            border: 3px solid #c3322f;
+        }
         .c1{
-            border-radius:0;
+            border-radius:15px;
         }
         .c2{
-            border-radius:0;
+            border-radius:15px;
         }
         .c3{
-            border-radius:0;
+            border-radius:15px;
         }
         .c4{
-            border-radius:0;
+            border-radius:15px;
         }
         .c-text p{
             color: #290a09;
-            font-size: 30px;
+            font-size: 15px;
             font-weight: bold;
             text-align: center;
         }
@@ -326,15 +330,15 @@
             position: absolute;
             color: #290a09;
             z-index: 200;
-            bottom: 30px;
-            left: 625px;
+            bottom: 10px;
+            left: 0px;
         }
         .plan-c a{
             position: absolute;
             color: #290a09;
             z-index: 200;
             top: 150px;
-            left: 825px;
+            left: 0px;
         }
         
         #camp{
